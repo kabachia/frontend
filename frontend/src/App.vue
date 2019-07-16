@@ -7,9 +7,11 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <router-link to='/suppliers'>Suppliers</router-link>
-    </div>
+    <ul class="navbar-nav">
+       <li class="nav-item nav-link"><router-link to='/suppliers'>Suppliers</router-link></li>
+       <li class="nav-item nav-link"><router-link to='/orders'>Orders</router-link></li>
+
+    </ul>
   </div>
 </nav>
     <router-view/>
