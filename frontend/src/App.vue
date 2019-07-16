@@ -10,7 +10,7 @@
     <ul class="navbar-nav">
        <li class="nav-item nav-link"><router-link to='/suppliers'>Suppliers</router-link></li>
        <li class="nav-item nav-link"><router-link to='/orders'>Orders</router-link></li>
-
+       <li class="nav-item nav-link"><router-link to='/products'>Products</router-link></li>
     </ul>
   </div>
 </nav>
