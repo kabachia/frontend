@@ -42,9 +42,10 @@
         },
         methods : {
             addOrder(){
-                let uri= 'http://localhost/rtechshop/public/api/orders';
+                let uri= 'http://localhost/rtechstore/public/api/orders';
                 axios.post(uri, this.order).then(response=>{
-                    console.log(response)
+                    console.log(response);
+                    this.$router.replace('/orders'); 
                 });
             }
         },

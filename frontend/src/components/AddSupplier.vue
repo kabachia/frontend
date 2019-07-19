@@ -34,9 +34,10 @@
         },
         methods : {
             addSupplier(){
-                let uri= 'http://localhost/rtechshop/public/api/suppliers';
+                let uri= 'http://localhost/rtechstore/public/api/suppliers';
                 axios.post(uri, this.supplier).then(response=>{
-                    console.log(response)
+                    console.log(response);
+                    this.$router.replace('/suppliers');
                 });
             }
         },
