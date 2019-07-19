@@ -26,15 +26,6 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class='form-group'>
-                        <label>Order ID:</label>
-                        <input type="text" class="form-control" v-model="product.order_id">
-                    </div>
-                </div>
-            </div>
-
             <div class="form-group">
                 <button type="submit" class="btn btn-primary">Create Product</button>
             </div>

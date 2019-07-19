@@ -8,7 +8,6 @@
                    <td>Product ID</td>
                    <td>Name</td>
                    <td>Supplier ID</td>
-                   <td>Order ID</td>
                    <td colspan=2>Actions</td>
                </tr>
             </thead>
@@ -17,7 +16,6 @@
                     <td>{{ product.product_id}}</td>
                     <td>{{ product.name}}</td>
                     <td>{{ product.supplier_id}}</td>
-                    <td>{{ product.order_id}}</td>
                     <td><button class="btn btn-danger" @click="deleteProduct(product)">Delete</button></td>
                 </tr>
             </tbody>
